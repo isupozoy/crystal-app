@@ -1,0 +1,29 @@
+{
+    "name": "isupozoy",
+    "description": "A powerful web skeleton built using Symfony.",
+    "type": "project",
+    "keywords": [
+        "php",
+        "web-skeleton",
+        "symfony",
+        "mvc-architecture",
+        "psr-compliant",
+        "secure-by-default"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6"
+        "symfony/polyfill-apcu": "^1.8",
+        "symfony/polyfill-ctype": "^1.8",
+        "symfony/polyfill-mbstring": "^1.8",
+        "symfony/polyfill-php70": "^1.8",
+        "symfony/polyfill-php71": "^1.8",
+        "symfony/polyfill-php72": "^1.8",
+        "symfony/polyfill-php73": "^1.8",
+        "symfony/polyfill-util": "^1.8"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
