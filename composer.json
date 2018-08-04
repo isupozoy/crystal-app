@@ -31,7 +31,8 @@
     "autoload": {
         "psr-4": {
             "Crystal\\App\\": "./crystalapp",
-            "Crystal\\Controller\\": "./controllers"
+            "Crystal\\Controller\\": "./controllers",
+            "Crystal\\Command\\": "./commands"
         }
     },
     "config": {
