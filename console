@@ -1,0 +1,18 @@
+#!/usr/bin/env php
+<?php
+/**
+ * Crystal App - Create crystal clear web applications with minimal configuration and easy to use tools.
+ *
+ * @author Nicholas E. <https://github.com/isupozoy> Maintainer.
+ * @link   <https://github.com/isupozoy/crystal-app> Github Repository.
+ */
+
+require __DIR__ . '/vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+
+// Create a new console application.
+$application = new Application();
+
+// Run the application.
+$application->run();
